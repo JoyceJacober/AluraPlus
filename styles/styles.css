@@ -1,0 +1,169 @@
+:root {
+    --cor-primaria: #FFFFFF;
+    --cor-secundaria: #C0C0C0;
+    --cor-terciaria: #167BF7;
+    --cor-quartenaria: #00030C;
+    --fonte-primaria: 'Inter';
+}
+
+body {
+    background-color: var(--cor-quartenaria);
+    color: var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.PRINCIPAL {
+    background-image: url("/assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+}
+
+.CONTEUDO {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.CONTEUDO__TITULO {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.CONTEUDO__IMG {
+    margin: 1em 0 2em 0;
+}
+
+.CONTEUDO__BOTAO {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.BOTAO__SECUNDARIO {
+    background-color: transparent;
+    color: var(--cor-primaria);
+    border-radius: 5px;
+    padding: 1em;
+    border: 2px solid var(--cor-primaria);
+    
+}
+
+.CONTEUDO__AVISO {
+    color: var(--cor-secundaria);
+    font-size: 12px;
+}
+
+.CONTEUDO__CAIXA {
+    margin: 0 6em;
+}
+
+.CONTEUDO__IMG__SECUNDARIO {
+    width: 80%;
+    margin: 1em;
+}
+
+.SECUNDARIO {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.CONTEUDO__TITULO__SECUNDARIO {
+   font-weight: 700;
+   font-size: 38px;
+   color: var(--cor-primaria);
+   margin-bottom: 0.2em;
+}
+
+.CONTEUDO__PARAGRAFO__SECUNDARIO {
+    color: var(--cor-secundaria);
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 0.5em;
+}
+
+.CONTEUDO__DESCRICAO {
+    margin: 0 5em;
+}
+
+.BOTAO__TERCIARIO {
+    display:inline-block;
+    text-decoration: none;
+}
+
+.TERCIARIO {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.DISPOSITIVOS__TITULOS {
+    font-weight: 700;
+    font-size: 48px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: var(--cor-primaria);
+    margin: 2em 0;
+}
+
+.LISTA__TITULOS {
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--cor-primaria);
+}
+
+.DISPOSITIVOS__LISTA {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.DISPOSITIVOS {
+    text-align: center;
+}
+
+.RODAPE {
+    margin: 0 10em;
+    text-align: center;
+}
+
+.RODAPE__IMG {
+    margin: 10em 0 2em 0;
+}
+
+.RODAPE__LISTA {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.LINK__RODAPE {
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+
+.RODAPE__PARAGRAFO {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    margin: 2em 0 2em 0;
+}
+
+.SEGUNDO {
+    margin-bottom: 10em;
+}
+
+.RODAPE__LINKS a:hover {
+    color: var(--cor-terciaria);
+}
